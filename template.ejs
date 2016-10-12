@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <table>
+      <tbody data-bind="foreach: products">
+        <tr>
+          <td data-bind="text: name"></td>
+          <td data-bind="text: desc"></td>
+        </td>
+      </tbody>
+    </table>
+  </body>
+</html>
