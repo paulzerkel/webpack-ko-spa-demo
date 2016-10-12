@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.4.0",
     "html-webpack-plugin": "^2.22.0",
     "webpack": "^1.13.2"
   },
